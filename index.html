@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        canvas {
+            image-rendering: optimizeSpeed;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: -o-crisp-edges;
+            image-rendering: crisp-edges;
+            -ms-interpolation-mode: nearest-neighbor;
+        }
+    </style>
+</head>
+<body>
+<canvas id="canvas" width="500" height="400"></canvas>
+<br>
+<input id="blocks" type="range" min="1" max="50" value="5">
+<input id="animate" type="button" value="Animate">
+<script src="pixellate.js"></script>
+
+</body>
+</html>
